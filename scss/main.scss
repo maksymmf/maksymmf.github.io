@@ -188,10 +188,6 @@ body {
                     @include md {
                         font-size: 1.2rem;
                     }
-
-                    @include xs {
-                        font-size: 1.1rem;
-                    }
                 }
             }
         }
