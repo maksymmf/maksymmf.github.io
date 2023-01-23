@@ -7,7 +7,8 @@ function cartFunctions () {
     const closeCartButton = doc.querySelector('.close-cart');
     const cartWrapper = doc.querySelector('.cart-wrapper');
     const cartContent = doc.querySelector('.cart-content');
-    const url = "http://127.0.0.1:5500/js/data.json";
+    // const url = "http://127.0.0.1:5500/js/data.json";
+    const url = "http://maksymmf.github.io/js/data.json";
     let buyListLocalStorage = JSON.parse(localStorage.getItem('buy')) || [];
 
     let fetchData = [];

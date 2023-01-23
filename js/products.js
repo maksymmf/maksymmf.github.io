@@ -21,7 +21,8 @@ function productsFunctions () {
     const rangeInput = doc.querySelector('.range-input');
     const searchInput = doc.querySelector('.search');
     const filterButton = doc.querySelectorAll('.filter-button');
-    const url = "http://127.0.0.1:5500/js/data.json";
+    // const url = "http://127.0.0.1:5500/js/data.json";
+    const url = "http://maksymmf.github.io/js/data.json";
     
     let fetchData = [];
     async function handleFetchRequest(url) {
