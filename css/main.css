@@ -179,11 +179,6 @@ body {
     font-weight: bolder;
   }
 }
-@media (max-width: 480px) {
-  .cart-wrapper .cart-content .cart-item .counter .arrow-up, .cart-wrapper .cart-content .cart-item .counter .arrow-down {
-    font-size: 1.4rem;
-  }
-}
 .cart-wrapper .cart-content .cart-item .counter .items-available {
   font-size: 0.9rem;
   color: #344D67;

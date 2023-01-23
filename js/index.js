@@ -3,7 +3,6 @@
 import { htmlTemplate } from './products.js';
 
 function homeFunctions() {
-    // const url = "http://127.0.0.1:5500/js/data.json";
     const url = "https://maksymmf.github.io/js/data.json";
     const featuredContent = document.querySelector('.featured-content');
 
