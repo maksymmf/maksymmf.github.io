@@ -17,8 +17,6 @@ function homeFunctions() {
         }
     }
 
-    console.log(fetchData);
-
     const showFeatured = async () => {
         await handleFetchRequest(url);
 
