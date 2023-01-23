@@ -16,7 +16,17 @@
 }
 @media (max-width: 1023px) {
   .about-wrapper .main {
-    padding: 3rem 4rem;
+    padding: 2rem 6rem 0 6rem;
+  }
+}
+@media (max-width: 720px) {
+  .about-wrapper .main {
+    padding: 2rem 4rem 0 4rem;
+  }
+}
+@media (max-width: 480px) {
+  .about-wrapper .main {
+    padding: 2rem 2rem 0 2rem;
   }
 }
 .about-wrapper .main h1 {
@@ -28,6 +38,16 @@
 .about-wrapper .main h1:before {
   content: "/ ";
   color: #B3541E;
+}
+@media (max-width: 1023px) {
+  .about-wrapper .main h1 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 720px) {
+  .about-wrapper .main h1 {
+    font-size: 1.6rem;
+  }
 }
 .about-wrapper .main p {
   color: #344D67;
